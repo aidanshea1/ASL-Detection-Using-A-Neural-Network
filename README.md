@@ -2,7 +2,12 @@
 ASL Fingerspelling Translation to Text Using a CNN
 
 # Project Description
-#### This is a group project for my machine learning class. This program accepts images of ASL fingerspelling and classifies the input into one of 29 symbols: the 26 letters of the alphabet, space, delete, and nothing. We hoped to create something that would aid people who are deaf or hard of hearing and expand the accessibility of online products that target those groups. Towards this goal we combined two data sets we obtained from kaggle for a total of 164,500 images which we processed and used in our model training, validation, and testing. 
+#### This is a group project for my machine learning class. This program accepts images of ASL fingerspelling and classifies the input into one of 29 symbols: the 26 letters of the alphabet, space, delete, and nothing. We hoped to create something that would aid people who are deaf or hard of hearing and expand the accessibility of online products that target those groups. Towards this goal we combined two data sets we obtained from kaggle for a total of 164,500 images which we processed and used in our model training, validation, and testing.
+
+#### Data sets: 
+#### https://www.kaggle.com/grassknoted/asl-alphabet
+#### https://www.kaggle.com/kuzivakwashe/significant-asl-sign-language-alphabet-dataset
+
 
 # Data Preprocessing
 #### Since much of our data was quite similar, we wanted to introduce some additional noise into our images to help prevent our model from overfitting. To do so, we adjusted the images via horizontal shifting, vertical shifting, and zooming to a random extent of 0 to 20%. 
