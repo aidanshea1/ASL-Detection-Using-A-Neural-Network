@@ -16,7 +16,7 @@ ASL Fingerspelling Translation to Text Using a CNN
 
 #### We then used a k-means approach to sort the pixels of each image into one of  two categories: hand or background. The k-means algorithm does not transform the image into black and white but rather into one of these two categories, but this process can be visualized by black and white pixels as shown below.
 
-![](images/k_means_preprocessing.jpg)
+![](images/k_means_preprocessing.png)
 
 # Model Validation
 #### After preprocessing our data, we separated our data randomly into three smaller subsets. We designated 60% of our data as a training data set, 20% as a validation data set, and 20% as a testing data set. Each model architecture was subsequently trained on our training data set and tested on the validation data set. Based on each model’s performance on the validation data set we would experiment with different hyperparameters and different combinations of layers with the goal of improving this performance. After we had selected our model, we used the test data set as an estimate of how the model would generalize and perform with data it had not previously encountered. 
