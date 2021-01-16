@@ -75,6 +75,8 @@ ASL Fingerspelling Translation to Text Using a CNN
 # Regularization
 #### We experimented with Batch Normalization, Dropout, and L2 regularization. Many of the methods we tested did in fact result in increased generalization performance, but others actually decreased generalization performance. Additionally, some methods worked better on their own while others worked better when combined with other techniques. By using both L2 regularization in tandem with dropout layers, we achieved a final generalization rate of 97.43% for our model.
 
+![](images/regularization_methods.png)
+
 # Results
 #### Our model had an accuracy of 97.43% on our test data set. The most common mistake was the model misinterpreting the asl sign for “r” as “u”, which is understandable as the asl signs for these two letters are quite similar.
 
